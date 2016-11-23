@@ -8,13 +8,13 @@
 
 2 CommonJS：提供一个类似Python,Java标准库。应用CommonJS API编写程序，以实现使用JavaScript程序开发：
 
-服务器端JavaScript应用程序；
+*服务器端JavaScript应用程序；*
 	
-命令行工具；
+*命令行工具；*
 	
-图形界面应用程序；
+*图形界面应用程序；*
 	
-混合应用程序。
+*混合应用程序。*
 
 CommonJS是一种规范，而NodeJS是这种规范的实现。
 
