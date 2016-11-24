@@ -1,6 +1,6 @@
 # 前端模块化 #
 
-声明：本文内容摘抄自网络以及自己整理,一字一字跟着旋律敲起来。 
+声明：本文内容转载自我们群主大哥的文章[https://zhuanlan.zhihu.com/p/23554806?refer=icode](https://zhuanlan.zhihu.com/p/23554806?refer=icode)不过是我一字一字敲出来的哦！
 
 ## 一、CommonJS是什么，什么是模块化？AMD和CMD又是什么？ ##
 
