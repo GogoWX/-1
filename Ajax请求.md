@@ -42,3 +42,29 @@ function myFunction () {
 	});
 }
 ```
+
+### jQuery中的Ajax
+
+```javascript
+$(document).ready({
+	$.ajax({
+    	type: "GET",
+        url: "url",
+        dataType: "json",
+        success: function (data) {
+        	console.log("Ajax请求成功",data)
+        }，
+        error: function (jqXHR) {
+        	alert("Ajax请求失败",request.status)
+		}
+	})
+})
+```
+
+### 跨域的处理方法
+
+> 一个域名地址的组成：
+> http:// (协议) www(主域名). abc.com(子域名) : 8080(端口号) / script/jquery.js(请求资源地址)
+
+1. 代理
+
