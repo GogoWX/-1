@@ -3,4 +3,5 @@
 1. [前端模块化](前端模块化.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2016/11/23*
 2. [设计模式](设计模式.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/10*
 3. [概念、术语](概念、术语.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/15*
-3. [Ajax请求](Ajax请求.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/21*
+4. [Ajax请求](Ajax请求.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/21*
+5. [angularJS-study](angularJS-study.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/30*
