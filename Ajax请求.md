@@ -48,13 +48,13 @@ function myFunction () {
 ```javascript
 $(document).ready({
 	$.ajax({
-    	type: "GET",
-        url: "url",
-        dataType: "json",
-        success: function (data) {
+    		type: "GET",
+        	url: "url",
+        	dataType: "json",
+        	success: function (data) {
         	console.log("Ajax请求成功",data)
-        }，
-        error: function (jqXHR) {
+        	}，
+        	error: function (jqXHR) {
         	alert("Ajax请求失败",request.status)
 		}
 	})
