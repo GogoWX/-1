@@ -4,4 +4,5 @@
 2. [设计模式](设计模式.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/10*
 3. [概念、术语](概念、术语.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/15*
 4. [Ajax请求](Ajax请求.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/21*
-5. [angularJS-study](angularJS-study.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/08/30*
+5. [angularJS-study](angularJS-study.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2016/11*
+6. [js面向对象编程](js面向对象编程.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2018/09/04*
