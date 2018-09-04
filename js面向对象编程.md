@@ -7,7 +7,7 @@
 当我们创建一个函数对象时：
 ```javascript
 function boring() {
-	return 'never mind'
+	return 'never mind';
 }
 ```
 它的原型链是：
