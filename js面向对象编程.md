@@ -21,10 +21,10 @@ JavaScript还可以用一种构造函数的方法来创建对象。它的用法�
 
 ```javascript
 function Student(name) {
-	this.name = name;
+    this.name = name;
     this.hello = function() {
     	alert("Hello" + this.name + "!")
-	}
+    }
 }
 ```
 
@@ -49,10 +49,10 @@ xiaoming instanceof Student; // true
 
 ```javascript
 function Student(name) {
-	this.name = name;
+    this.name = name;
 }
 Student.prototype.hello = function() {
-	alert("Hello" + this.name + "!")
+    alert("Hello" + this.name + "!")
 }
 ```
 
@@ -75,28 +75,28 @@ JavaScript的原型继承方法就是：
 
 ```javascript
 function inherits(Child,Parent) {
-	var F = function() {};
+    var F = function() {};
     F.prototype = Parent.prototype;
     Child.prototype = new F();
-	Child.prototype.constructor = Child;
+    Child.prototype.constructor = Child;
 }
 //创建parent对象
 function Student(props) {
-	this.name = props || 'Unnamed'
+    this.name = props || 'Unnamed'
 }
 Student.prototype.hello = function() {
-	alert('Hello, ' + this.name + '!');
+    alert('Hello, ' + this.name + '!');
 }
 //创建child对象
 function PrimaryStudent(props) {
-	student.call(this,props);
+    student.call(this,props);
     this.grade = props.grade || 1;
 }
 //实现原型链继承
 inherits (PrimaryStudent,Student);
 //绑定其他方法到PrimaryStudent原型上
 PrimaryStudent.prototype.getGrade = function() {
-	return this.grade;
+    return this.grade;
 }
 ```
 
@@ -108,7 +108,7 @@ PrimaryStudent.prototype.getGrade = function() {
 
 ```javascript
 class student {
-	constructor(name) {
+    constructor(name) {
     	this.name = name;
     }
     
@@ -123,13 +123,13 @@ class的定义包含了构造函数constructor和定义在原型对象上的函�
 class的继承，直接通过extends来实现：
 ```javascript
 class PrimaryStudent extends Student {
-	constructor(name,grade) {
+    constructor(name,grade) {
     	super(name); //用super调用父类的构造方法
         this.grade = grade;
     }
     
     myGrade() {
     	alert('I am at grade ' + this.grade);
-	}
+    }
 }
 ```
