@@ -1,4 +1,4 @@
-### 面向对象编程
+### JS面向对象编程
 
 > JavaScript 和java、C#的面向对象不同，JavaScript不区分类和实例的概念，而是通过原型（prototype）来实现面向对象编程。
 
